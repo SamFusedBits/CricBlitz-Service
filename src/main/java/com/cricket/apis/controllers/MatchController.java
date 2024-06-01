@@ -15,7 +15,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/match")
-@CrossOrigin(origins = {"https://cricblitzbackend-production.up.railway.app", "http://localhost:8081"})
+@CrossOrigin("*")
 public class MatchController {
 
     private MatchService matchService;
