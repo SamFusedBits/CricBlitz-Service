@@ -50,9 +50,13 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<dependency>
+			<groupId>io.github.cdimascio</groupId>
+			<artifactId>java-dotenv</artifactId>
+			<version>5.2.0</version>
+		</dependency>
 	</dependencies>
-
-
 
 	<build>
 		<plugins>
